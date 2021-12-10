@@ -36,6 +36,6 @@ $(TEMP)/$(NGINX)/CHANGES:	docs/dtd/changes.dtd			\
 		-o $@ docs/xslt/changes.xslt docs/xml/nginx/changes.xml
 
 
-docs/xslt/changes.xslt:		docs/xsls/changes.xsls
+docs/xslt/changes.xslt:		docs/xsls/changes.xsls,
 
 	$(XSLS) -o $@ $<
