@@ -9,6 +9,7 @@
 # this script converts CSV geoip database (free download at http://www.maxmind.com/app/geoip_country)
 # to format, suitable for use with nginx_http_geo module (http://sysoev.ru/nginx)
 #
+#
 # for example, line with ip range
 #
 #   "62.16.68.0","62.16.127.255","1041253376","1041268735","RU","Russian Federation"
